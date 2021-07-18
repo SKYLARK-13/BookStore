@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Dubey</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        .first{
+            background-color: rgb(160, 59, 255);
+       padding: 50px;
+        }
+        .first>h2{
+            margin-left: 40%;
+            color: white;
+         }.cat{
+ margin-left: 20%;
+            color: white;
+        }
+        .second{
+            background-color: rgb(154, 45, 255);
+       padding: 50px;
+        }
+        .cat{
+            display: flex;
+            padding: 10px;
+        }
+        .cat>ul{
+            display: flex;
+            padding: 10px;
+            
+        }
+        ul>li{
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+        ul>li:hover{
+            color: red;
+            cursor: pointer;
+        }
+        .formcon{
+            margin-left: 40%;
+            background-color: rgb(191, 125, 253);
+            width: 180px;
+            align-self: center;
+            padding: 30px;
+            font-family:cursive;
+        }
+        .books{
+            margin-left: 10%;
+        }
+        .books>h2{
+            margin-left: 38%;
+            color: wheat;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .books>img{
+            margin-left: 80px;
+        }
+        .books>img:hover{
+            cursor: pointer;
+
+        }
+        .lorem{
+            margin-left: 25%;
+            width: 50%;
+ font-family: cursive;
+            color: wheat;
+         }
+         .vid{
+             margin-left: 30%;
+             border: 2px solid wheat;
+             border-radius: 20px;
+         }
+
+    </style>
+</head>
+
+<body>
+
+<div class="first">
+<h2>Welcome To Vision Book Store</h2>
+
+ 
+<div class="cat">
+   
+    <ul>
+        <li>Fantasy</li>
+        <li>Sci-Fi</li>
+    
+        <li>Mystery</li>
+        <li>Thriller</li>
+        <li>Romance</li>
+        <li>Westerns</li>
+        <li>Dystopian</li>
+        <li>Contemporary</li>
+    </ul>
+</div>
+</div>
+<div class="second">
+<div class="formcon">
+    <h3>Subscribe to our NewsLetter</h3>
+    <p>Please fill this detail form</p>
+    <form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="vikas"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="dubey"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+<div class="books">
+    <h2>Sample Books</h2>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41x4tuvyQOS._AC_SX184_.jpg" alt="">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51b-JoV-1xS._AC_SX184_.jpg" alt="">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51SdurB71kS._AC_SX184_.jpg" alt="">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41uORm5aOQS._AC_SX184_.jpg" alt="">
+
+</div>
+<br>
+<div class="lorem"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis eos dolor sapiente possimus similique
+    culpa
+    accusamus atque non labore, maiores, fuga explicabo veniam? Perspiciatis, quis maxime necessitatibus earum,
+    numquam dolorum asperiores laborum cupiditate optio iste laudantium ex? Sint ex, aspernatur provident,
+    eveniet
+    ab ipsum voluptatum saepe molestiae illo culpa deserunt.</p></div>
+<br>
+<video class="vid" width="490" height="280" controls>
+    <source
+        src="https://player.vimeo.com/external/334344435.sd.mp4?s=d367341a941ffa97781ade70e4f4a28f4a1a5fc8&profile_id=139&oauth2_token_id=57447761"
+        type="video/mp4">
+
+
+</video>
+</div>
+
+
+   
+</body>
+
+</html>
